@@ -54,7 +54,8 @@ public class sorting_diff_methods {
             swapped=false;
             //inner loop for running on elements which will remain unsorted
             for(int j=1;j<array.length-i;j++){
-                //swap elements if first previous one is smaller than next element..this code is for ascending order sorting
+            //swap elements if first previous one is smaller than next element..this code is for ascending
+              order sorting
                 if(array[j]<array[j-1]){
                     int temp=array[j-1];
                     array[j-1]=array[j];
